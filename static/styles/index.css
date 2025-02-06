@@ -1,4 +1,4 @@
-body {
+  body {
     text-align: center;
     margin-top: 30px;
     font-family: "Courier";
@@ -7,8 +7,7 @@ body {
   }
   
   img {
-    height: 400px;
-    width: auto;
+    width: 400px;
     padding: 10px;
   }
   
@@ -31,6 +30,11 @@ body {
     box-shadow: 1px 1px 2px #ff9494;
     transition: 0.3s;
   }
+
+  .responsive {
+    display: flex;
+    justify-content: center;
+  }
   
   .answerButton:hover {
     background-color: #ff9494;
@@ -39,3 +43,8 @@ body {
     box-shadow: 1px 1px 2px #ffe3e1;
   }
   
+  @media (max-width: 768px) {
+    #valentineQuestion {
+      font-size: 40px;
+    }
+  }
