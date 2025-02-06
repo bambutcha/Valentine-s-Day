@@ -363,3 +363,10 @@ body{
         transform:translate(-36vmin,1.1vmin) rotateY(-80deg) rotateX(35deg);
     }
 }
+
+@media (max-width: 600px) {
+    #thankyou {
+        margin-bottom: 250px;
+        font-size: 30px;
+    }
+}
