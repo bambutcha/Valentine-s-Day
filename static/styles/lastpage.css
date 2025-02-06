@@ -369,4 +369,21 @@ body{
         margin-bottom: 250px;
         font-size: 30px;
     }
+
+    @keyframes flower-fall-down-yellow {
+
+        0%{
+            transform: rotate(-55deg);
+        }
+    
+        50%{
+            bottom: 3vmin;
+            transform: rotateX(-100deg);
+        }
+    
+        100%{
+            transform:translate(2vmin,160vmin) rotate(150deg);
+        }
+    
+    }
 }
